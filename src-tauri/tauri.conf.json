@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "identifier": "com.riemann.explorer",
   "build": {
+    "beforeBuildCommand": "bun run build",
+    "beforeDevCommand": "bun run dev",
     "frontendDist": "../build",
     "devUrl": null
   },
